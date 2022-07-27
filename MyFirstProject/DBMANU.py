@@ -8,8 +8,7 @@ def connectDB():
                      password='',
                      database='python_3_10_2')
     cur = db.cursor()
-    
-    
+      
 def disconnectDB():
     db.close()
     cur.close()
